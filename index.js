@@ -22,7 +22,7 @@ const elements = prompt(
  */
 const result = new Array();
 
-result = arr.filter(x => !elementS.includes(x));
+result = arr.filter(i => !elements.includes(i));
 
 console.log(result);
 
